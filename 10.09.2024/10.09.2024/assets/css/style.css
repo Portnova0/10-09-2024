@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background: url(../img/Log\ In\ -\ 5\ \(3\).png)no-repeat bottom left/cover;
+    height: 100vh;
+
+}
+a{
+    text-decoration: none;
+}
+.main-block{
+    max-width: 608px;
+    padding: ;
+}
+.main__wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.main_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+  
+}
+.main__logo-text{
+    font-weight: 900;
+    font-size: 39PX;
+    color: #474747;
+}
+.form{
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 24px;
+    margin-top: 40px;
+}
+.form__title{
+    font-size: 36px;
+    color: #323232;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.form__sign-up{
+    text-align: center;
+    color:  #5A6175;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+.form__link{
+   color: #FF6700;
+
+}
+.form__input{
+    border: 1px solid #dad7D5;
+    border-radius:  8px; 
+    padding: 16px;
+    margin-bottom: 24px;
+    width: 560px;
+}
+.form__button{
+    background-color: #0C6FF9;
+    border-radius: 24px;
+    padding: 16px;
+    text-align: center;
+    width: 560px;
+    border: none;
+    color: #fff;
+    text-transform:uppercase;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.form__icon-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.form__icon-block{
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 130px;
+    background-color: #000000;
+}
+.form__icon-block_dgrey{
+background-color: #5A6175;
+}
+.form__icon-block_green{
+background-color: #2EBD59;
+}
+
+.form__icon-block_grey{
+background-color: #FAF6F4;
+}
